@@ -1,0 +1,32 @@
+module.exports = {
+  development:{
+    DBUSER:'root',
+    DBHOST:'localhost',
+    DBPASS:'',
+    DBDB:'LOE',
+    DBRPTPREFIX:'rpt_',
+    WAMPURL:'wss://api.outlawdesigns.io:9700/ws',
+    WAMPREALM:'realm1',
+    RPCPREFIX:'io.outlawdesigns.loe.music'
+  },
+  testing:{
+    DBUSER:'root',
+    DBHOST:'localhost',
+    DBPASS:'',
+    DBDB:'LOE',
+    DBRPTPREFIX:'rpt_',
+    WAMPURL:'wss://api.outlawdesigns.io:9700/ws',
+    WAMPREALM:'realm1',
+    RPCPREFIX:'io.outlawdesigns.loe.music'
+  },
+  production:{
+    DBUSER:'root',
+    DBHOST:'localhost',
+    DBPASS:'',
+    DBDB:'LOE',
+    DBRPTPREFIX:'rpt_',
+    WAMPURL:'wss://api.outlawdesigns.io:9700/ws',
+    WAMPREALM:'realm1',
+    RPCPREFIX:'io.outlawdesigns.loe.music'
+  }
+};
